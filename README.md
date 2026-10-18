@@ -38,18 +38,18 @@ A arquitetura trata ativamente falhas de rede, mensagens duplicadas, timeouts e 
 - **Tabela de Estado (Saga State Machine)**: Acompanhamento rigoroso de timeouts e etapas do fluxo.
 - **Mecanismos de Resiliência**: Retries com backoff exponencial, Circuit Breaker e tratamento via Dead-Letter Queue (DLQ) para reconciliação manual de compensações que falharem.
 
-## 6. Diagramas
+### 6. Diagramas
 
 Os diagramas de arquitetura do projeto estão localizados no diretório `diagrams/`:
 
-### Visão Geral da Arquitetura
-![Visão Geral da Arquitetura](diagrams/saga-architecture-overview.png)
+#### Visão Geral da Arquitetura
+![Visão Geral da Arquitetura](diagrams/saga-architecture-overview.png.jpg)
 
-### Fluxo de Sucesso
-![Fluxo de Sucesso](diagrams/sequence-success-flow.png)
+#### Fluxo de Sucesso
+![Fluxo de Sucesso](diagrams/sequence-success-flow.jpg)
 
-### Fluxo de Compensação
-![Fluxo de Compensação](diagrams/sequence-compensation-flow.png)
+#### Fluxo de Compensação
+![Fluxo de Compensação](diagrams/sequence-compensation-flow.jpg)
 
 ## 7. Documentação Complementar
 
@@ -63,6 +63,6 @@ Aprofundamento técnico e especificações da arquitetura disponíveis em `/docs
 
 Este repositório apresenta a blueprint arquitetural do padrão Saga. Os diagramas e documentos especificam o comportamento e os contratos de comunicação planejados para o sistema.
 
-## 9. Escopo e limitações
+## 9. Limitações
 
 Este repositório apresenta uma especificação arquitetural conceitual. Os contratos, políticas de repetição e integrações com fornecedores são propostas de projeto, não integrações implementadas ou testadas em produção.
