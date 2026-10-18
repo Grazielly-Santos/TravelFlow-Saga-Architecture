@@ -1,4 +1,4 @@
-# TravelFlow — Arquitetura Saga (E-Commerce)
+# TravelFlow: Arquitetura Saga (E-Commerce)
 
 ## 1. Visão Geral
 
